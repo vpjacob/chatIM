@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  TaoBaoDetailDemo
+//
+//  Created by vpjacob on 2017/6/9.
+//  Copyright © 2017年 vpjacob. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+//包含实时音视频功能
+#import <HelpDesk/HelpDesk.h>
+
+#import "HelpDeskUI.h"
+#import "EaseUI.h"
+#endif
+
+#define kDefaultAppKey @"1124161024178184#kefuchannelapp29044"
+#define kDefaultCustomerName @"kefuchannelimid_008267"
+#define kDefaultCustomerNickname @"风口上的猪"
+#define kDefaultTenantId @"29044"
+#define kDefaultProjectId @"306164"
+
+#endif /* PrefixHeader_pch */
